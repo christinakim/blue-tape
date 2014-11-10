@@ -2,6 +2,9 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Muli', sans-serif !important; 
+  background-color: #98A8CC;
+  color:#FFFFFF;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -10,6 +13,34 @@ body {
 .footer {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+/*colors  */
+
+.dark-blue{
+  background-color: #32457F;
+    color:#FFFFFF;
+
+}
+
+.light-blue{
+  background-color:#6492FF;
+    color:#FFFFFF;
+
+
+}
+
+
+.grey-blue{
+  background-color:#BFD2FF;
+    color:#FFFFFF;
+
+
+}
+
+.white{
+    color:#FFFFFF!important;
+
 }
 
 /* Custom page header */
@@ -23,6 +54,7 @@ body {
   line-height: 40px;
   padding-bottom: 19px;
 }
+
 
 /* Custom page footer */
 .footer {
