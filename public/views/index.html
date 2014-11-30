@@ -1,0 +1,84 @@
+<!-- public/views/index.html -->
+<!DOCTYPE html>
+
+<!-- Angular Module -->
+<html ng-app="blueTape" class="no-js">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Blue Tape</title>
+
+	<!-- Angular, Fonts, and Icons -->
+	<script src="/resources/angular.min.js"></script>
+	<link rel="shortcut icon" href="/img/boxes.ico">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+
+
+
+
+</head>
+
+<!-- load user data into angular controller -->
+  <body ng-controller="MainCtrl">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="container">
+      <div class="header white">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a ng-href="#">Home</a></li>
+          <li><a ng-href="#/about">About</a></li>
+          <li><a ng-href="#">Contact</a></li>
+        </ul>
+        <h3 class="text-muted">Blue Tape</h3>
+      </div>
+
+     <div class="jumbotron dark-blue white">
+  <h1>Blue Tape</h1>
+  <p class="lead">
+    Bypass all the excessive bureaucracy <br> And find what you need now
+  </p>
+  <p><a class="btn btn-lg light-blue" href="/QA">Let's get started!<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+
+
+
+      <div class="footer">
+        <p><span class="glyphicon glyphicon-folder-open"></span> Blue Tape</p>
+      </div>
+    </div>
+	
+
+
+
+
+
+
+
+<!-- Resources -->
+
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/resources/bootstrap.min.css">
+<link rel="stylesheet" href="/resources/font-awesome.min.css">
+
+<!-- Imported Resources -->
+<script src="/resources/jquery-2.1.1.min.js"></script>
+<script src="/resources/bootstrap.min.js"></script>
+
+<!-- Angular Custom Components -->
+<script src="/js/coreModule.js"></script>
+<script src="/js/services/mainService.js"></script>
+<script src="/js/controllers/mainCtrl.js"></script>
+
+</body>
+</html>
