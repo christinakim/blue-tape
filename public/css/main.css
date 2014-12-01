@@ -23,9 +23,13 @@ body {
 
 }
 
+.dark-blue-font{
+  color: #32457F !important;
+
+}
+
 .light-blue{
   background-color:#6492FF !important;
-    color:#FFFFFF;
 
 
 }

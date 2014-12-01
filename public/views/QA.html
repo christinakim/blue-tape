@@ -1,10 +1,8 @@
-
-
-<!-- public/views/index.html -->
+<!-- public/views/about.html -->
 <!DOCTYPE html>
 
 <!-- Angular Module -->
-<html ng-app="blueTape" class="no-js">
+<html ng-app="BlueTape" class="no-js">
 <head>
   <!-- Meta -->
   <meta charset="utf-8">
@@ -14,7 +12,7 @@
 
   <!-- Angular, Fonts, and Icons -->
   <script src="/resources/angular.min.js"></script>
-  <link rel="shortcut icon" href="/img/boxes.ico">
+  <link rel="shortcut icon" href="/img/tapeicon.gif">
 
 
     <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
@@ -42,28 +40,23 @@
         <h3 class="text-muted">Blue Tape</h3>
       </div>
 
-<div class="container">
-  <div class="white"><h1>Ask A Question</h1>
-  </div>
+
+
+
+
+     <div class="jumbotron dark-blue white">
+  <h1>Blue Tape</h1>
   <p class="lead">
-    
-      </p>
-      <p>
-        <div class="gray">
-    
- <!-- <form id="Q" action="questionSubmit" method="post"> -->
- <form id="Q" action="questionSubmit" method="post">
-        <input id="question" type="text" id="q" name="question"></input>
-<input id="submitButton" type="submit" value="Submit"></input>
+    Bypass all the excessive bureaucracy <br> And find what you need now
+  </p>
+
+
+   <form id="Q" action="questionSubmit" method="post">
+        <input class="dark-blue-font" id="question" type="text" size="40" id="q" name="question"></input>
+<input class="light-blue" id="submitButton" type="submit" value="Submit" ></input>
 </form>
- 
-   
-</p>
-</div>
-
 
 </div>
-
 
 
 
@@ -86,6 +79,8 @@
 
 <!-- CSS -->
 <link rel="stylesheet" href="/css/main.css">
+<!--<link rel="stylesheet" href="/css/index.css"> -->
+
 <link rel="stylesheet" href="/resources/bootstrap.min.css">
 <link rel="stylesheet" href="/resources/font-awesome.min.css">
 
@@ -95,9 +90,9 @@
 
 <!-- Angular Custom Components -->
 <script src="/js/coreModule.js"></script>
-
 <script src="/js/services/mainService.js"></script>
-<script src="/js/controllers/mainCtrl.js"></script>
+<script src="/js/controllers/aboutCtrl.js"></script>
+
 
 </body>
 </html>
