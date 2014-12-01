@@ -43,23 +43,8 @@
       </div>
 
 <div class="container">
-  <div class="white"><h1>Ask A Question</h1>
-  </div>
-  <p class="lead">
-    
-      </p>
-      <p>
-        <div class="gray">
-    
- <!-- <form id="Q" action="questionSubmit" method="post"> -->
- <form id="Q" action="questionSubmit" method="post">
-        <input id="question" type="text" id="q" name="question"></input>
-<input id="submitButton" type="submit" value="Submit"></input>
-</form>
- 
-   
-</p>
-</div>
+
+<%- question.answers[0].formattedText %>
 
 
 </div>
@@ -92,12 +77,17 @@
 <!-- Imported Resources -->
 <script src="/resources/jquery-2.1.1.min.js"></script>
 <script src="/resources/bootstrap.min.js"></script>
+<script type="text/javascript" src="ejs_production.js"></script>
+
 
 <!-- Angular Custom Components -->
 <script src="/js/coreModule.js"></script>
-
+<script src="/js/QAhttp.js"></script>
 <script src="/js/services/mainService.js"></script>
 <script src="/js/controllers/mainCtrl.js"></script>
 
 </body>
 </html>
+
+
+

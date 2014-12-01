@@ -3,7 +3,7 @@
 // set up ======================================================================
 var express 		= require('express');
 var app 		= express(); 			// create app w/ express
-var port 		= process.env.PORT || 5000; 	// set port
+var port 		= process.env.PORT || 2000; 	// set port
 
 // express modules
 var morgan 		= require('morgan');

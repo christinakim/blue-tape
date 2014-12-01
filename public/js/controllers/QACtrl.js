@@ -7,9 +7,11 @@
  * # MainCtrl
  * Controller of the blueTapeApp
  */
-angular.module('blueTape')
+angular.module('BlueTape')
   .controller('QACtrl', function ($scope) {
     $scope.awesomeThings = [
       'AngularJS',
     ];
+    console.log('Hello');
+    console.log($scope.question)
   });

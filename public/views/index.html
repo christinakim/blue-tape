@@ -2,17 +2,18 @@
 <!DOCTYPE html>
 
 <!-- Angular Module -->
-<html ng-app="blueTape" class="no-js">
+<html ng-app="BlueTape" class="no-js">
 <head>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Blue Tape</title>
+  <title>Blue Tape</title>
 
-	<!-- Angular, Fonts, and Icons -->
-	<script src="/resources/angular.min.js"></script>
-	<link rel="shortcut icon" href="/img/boxes.ico">
+  <!-- Angular, Fonts, and Icons -->
+  <script src="/resources/angular.min.js"></script>
+  <script src="/resources/velocity.min.js"></script>
+  <link rel="shortcut icon" href="/img/boxes.ico">
 
 
     <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
@@ -24,50 +25,67 @@
 </head>
 
 <!-- load user data into angular controller -->
-  <body ng-controller="MainCtrl">
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+  <body ng-controller="mainCtrl">
 
-    <!-- Add your site or application content here -->
-    <div class="container">
-      <div class="header white">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">Blue Tape</h3>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+<div id="js-car1" class="car car--1 c-green-g"></div>
+    <div id="js-car2" class="car car--2 c-green-g"></div>
+    <div id="js-fast" class="c-green-c-g text text--fast">
+      <div class="text__bit text__bit--1">
+        <div id="js-bit-inner" class="text__bit__inner"><span id="js-span">f</span></div>
       </div>
-
-     <div class="jumbotron dark-blue white">
-  <h1>Blue Tape</h1>
-  <p class="lead">
-    Bypass all the excessive bureaucracy <br> And find what you need now
-  </p>
-  <p><a class="btn btn-lg light-blue" href="/QA">Let's get started!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
-
-
-
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-folder-open"></span> Blue Tape</p>
+      <div class="text__bit text__bit--2">
+        <div id="js-bit-inner" class="text__bit__inner"><span id="js-span">a</span></div>
+      </div>
+      <div class="text__bit text__bit--3">
+        <div id="js-bit-inner" class="text__bit__inner"><span id="js-span">s</span></div>
+      </div>
+      <div class="text__bit text__bit--4">
+        <div id="js-bit-inner" class="text__bit__inner"><span id="js-span">t</span></div>
       </div>
     </div>
-	
+    <div id="js-arrow1" class="arrow"></div>
+    <div id="js-arrow2" class="arrow"></div>
+    <div id="js-arrow3" class="arrow"></div>
+    <div id="js-arrow-wrap" class="arrow arrow--wrap">
+      <div id="js-arrow4" class="arrow arrow--center"></div>
+    </div>
+    <div id="js-robust-screen2" class="screen screen--robust">
+      <div id="js-robust-screen" class="screen screen--robust">
+        <div id="js-robust" class="text text--robust c-green-c-g">robust
+          <div id="js-robust-shade1" class="text--robust__shade text--robust__shade--1"></div>
+          <div id="js-robust-shade2" class="text--robust__shade text--robust__shade--2"></div>
+        </div>
+      </div>
+    </div>
+    <div id="js-thunder-bg" class="thunder-bg"></div>
+    <div id="js-easy-screen" class="screen screen--easy">
+      <div id="js-easy" class="text easy">
+        <div id="js-easy-wrapper" class="easy__wrapper">
+          <div id="js-easy-text" class="easy__text">easy</div>
+        </div>
+      </div>
+    </div>
+    <div id="js-screen1" class="screen">
+      <div id="js-line" class="line"></div>
+    </div>
+    <div id="js-screen2" class="screen"></div>
+    <div id="js-velocity" class="velocity"><span>b</span><span>l</span><span>u</span><span>e</span><span></span><span></span><span></span><span>t</span><span>a</span><span>p</span><span>e</span></div>
+    <div id="js-logos-screen" class="screen screen--logos"><a href="/about" id="js-github" class="github">
+        <div class="github__text">Enter here</div></a>
+      <div id="js-restart" class="restart"></div>
 
-
-
-
-
-
-
-<!-- Resources -->
+    </div>
+  
 
 
 
 <!-- CSS -->
 <link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="/css/index.css">
+
 <link rel="stylesheet" href="/resources/bootstrap.min.css">
 <link rel="stylesheet" href="/resources/font-awesome.min.css">
 
@@ -79,6 +97,8 @@
 <script src="/js/coreModule.js"></script>
 <script src="/js/services/mainService.js"></script>
 <script src="/js/controllers/mainCtrl.js"></script>
+<script src="/js/index.js"></script>
+
 
 </body>
 </html>

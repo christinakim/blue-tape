@@ -1,7 +1,7 @@
 {
-  "name": "CourseDJ",
+  "name": "BlueTape",
   "version": "0.0.1",
-  "description": "Course Scheduling Aide",
+  "description": "AI QA",
   "main": "server.js",
   "author": "Thomas Huang",
   "dependencies": {
@@ -9,6 +9,7 @@
     "ejs": "~0.8.5",
     "express": "~4.6.1",
     "method-override": "~2.1.1",
-    "morgan": "~1.1.1"
+    "morgan": "~1.1.1",
+    "request": "^2.49.0"
   }
 }

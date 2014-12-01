@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the blueTapeApp
  */
-angular.module('blueTape')
+angular.module('BlueTape')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'AngularJS',

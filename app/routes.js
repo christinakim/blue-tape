@@ -1,5 +1,7 @@
 // app/routes.js
 
+var watson = require('./httprequests.js');
+
 module.exports = function(app){
 
 //// VIEWS -------------------------------------------------------------------
@@ -10,6 +12,7 @@ module.exports = function(app){
 		});
 	});
 
+
 		app.get('/QA', function(req, res) {
 		res.render('QA.html', {
 			user : req.user
@@ -17,9 +20,13 @@ module.exports = function(app){
 	});
 
 				app.get('/about', function(req, res) {
-		res.render('index.html', {
+		res.render('about.html', {
 			user : req.user
 		});
+	});
+
+	app.post('/questionSubmit', function(req, res) {
+		watson.question(req, res);
 	});
 
 };
